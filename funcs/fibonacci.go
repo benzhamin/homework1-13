@@ -13,7 +13,7 @@ func fib(pre, cur, pos int, x, y *int) {
 }
 
 func Fibonacci() {
-	fmt.Println("Fibonacci index from x yo y")
+	fmt.Println("Fibonacci index from x to y")
 	var x, y int
 	fmt.Scan(&x, &y)
 	X := &x 
