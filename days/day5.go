@@ -16,6 +16,7 @@ func Day5() {
 	fmt.Println("---------------------" )
 	funcs.Start_exam(&Student)
 
-	fmt.Println(Student.Name, "Your exam grade is",Student.Otsenkaexamina)
+	fmt.Println(Student.Name, "Your exam grade is",Student.Otsenkaexamina) 
 	
 }
+ 
