@@ -10,7 +10,7 @@ func main() {
 
 	log.Println("Program Started")
 
-	fmt.Println("Choose day: from 1 to 7 ")
+	fmt.Println("Choose day: from 1 to 13 ")
 	var day int
 	fmt.Scan(&day)
 
@@ -29,6 +29,16 @@ func main() {
 		days.Day6()
 	case 7:
 		days.Day7()
+	case 8,9:
+		days.Day8_9()
+	case 10:
+		days.Day10()
+	case 11:
+		days.Day11() 
+	case 12:
+		days.Day12()
+	case 13:
+		days.Day13()
 	default:
 		fmt.Println("Please enter the valid number")
 	}
